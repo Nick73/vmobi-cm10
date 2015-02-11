@@ -9,11 +9,15 @@ To get started with Android/CyanogenMod, you'll need to get setup your
 
 To initialize your local repository using the CyanogenMod trees, use a command like this:
 
-    repo init -u git://github.com/vmobi-gogh/android.git -b cm-10.2
+    repo init -u git://github.com/Nick73/vmobi-cm10/tree/cm-10.2.git -b cm-10.2
 
 Then to sync up:
 
     repo sync
+    
+If you encounter errors, try:
+
+    repo sync -f
 
 For more information on this Github Organization and how it is structured, 
 please [read the wiki article](http://wiki.cyanogenmod.org/index.php/Github_Organization)
