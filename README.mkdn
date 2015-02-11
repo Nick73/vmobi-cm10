@@ -16,6 +16,7 @@ Then to sync up:
     repo sync
     
 If you encounter errors, try:
+
     repo sync -f
 
 For more information on this Github Organization and how it is structured, 
