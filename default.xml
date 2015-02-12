@@ -36,6 +36,15 @@
   <project path="developers/docs" name="platform/developers/docs" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="developers/samples/android" name="platform/developers/samples/android" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="development" name="CyanogenMod/android_development" />
+  
+  <!-- START - GOGH DEVICE, KERNEL, VENDOR -->
+  <project path="device/samsung/gogh-common" name="vmobi-gogh/android_device_samsung_gogh-common" />
+  <project path="device/samsung/goghspr" name="vmobi-gogh/android_device_samsung_goghspr" />
+  <project path="device/samsung/goghvmu" name="vmobi-gogh/android_device_samsung_goghvmu" />
+  <project path="kernel/samsung/gogh" name="vmobi-gogh/android_kernel_samsung_gogh" />
+  <project path="vendor/samsung" name="vmobi-gogh/android_vendor_samsung" />
+  <!-- END - GOGH DEVICE, KERNEL, VENDOR -->
+  
   <project path="device/common" name="CyanogenMod/android_device_common" />
   <project path="device/generic/armv7-a-neon" name="CyanogenMod/android_device_generic_armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="CyanogenMod/android_device_generic_common" groups="pdk" />
