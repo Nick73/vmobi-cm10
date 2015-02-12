@@ -1,29 +1,42 @@
 CyanogenMod gogh
-Getting Started
+===========
 
-To get started with Android/CyanogenMod, you'll need to get setup your enviornment.
+Getting Started
+---------------
+
+To get started with Android/CyanogenMod, you'll need to get setup your
+[enviornment](hhttp://vmobi.us/?page_id=8).
 
 To initialize your local repository using the CyanogenMod trees, use a command like this:
 
-repo init -u git://github.com/Nick73/vmobi-cm10.git -b jellybean
+    repo init -u git://github.com/Nick73/vmobi-cm10.git -b jellybean
+
 Then to sync up:
 
-repo sync
+    repo sync
+    
 If you encounter errors, try:
 
-repo sync -f
-For more information on this Github Organization and how it is structured, please read the wiki article
+    repo sync -f
+
+For more information on this Github Organization and how it is structured, 
+please [read the wiki article](http://wiki.cyanogenmod.org/index.php/Github_Organization)
 
 Building
+--------
 
 Once the repo's are synced you will need to get the CyanogenMod prebuilts
 
-vendor/cm/get-prebuilts
+    vendor/cm/get-prebuilts
+    
+
 Then depending on what device you are building for you will need to run the following
 
 GOGHSPR - Sprint Version
 
-. build/envsetup.sh && brunch goghspr
+    . build/envsetup.sh && brunch goghspr
+
 GOGHVMU - Virgin Mobile Version
 
-. build/envsetup.sh && brunch goghvmu
+    . build/envsetup.sh && brunch goghvmu
+
